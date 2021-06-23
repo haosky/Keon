@@ -19,11 +19,18 @@ class HtmlController(private val repository: ArticleRepository,
                      private val properties: BlogProperties) {
 
     @GetMapping("/")
-    fun Peon(model: Model): String {
+    fun Home(model: Model): String {
         model["title"] = properties.title
         model["banner"] = properties.banner
         model["articles"] = repository.findAllByOrderByAddedAtDesc().map { it.render() }
         return "blog"
+    }
+
+    @GetMapping("/services")
+    fun Services(model: Model): String {
+        model["title"] = "services"
+        model["banner"] = properties.banner
+        return "services"
     }
 
     @GetMapping("/article/{slug}")
