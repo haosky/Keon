@@ -104,3 +104,13 @@ project(":Peon-WEB") {
 		runtimeOnly("org.hsqldb:hsqldb")
 	}
 }
+
+
+project(":Peon-RPC") {
+	apply(plugin = "java")
+
+	repositories {
+		mavenCentral()
+	}
+
+}
