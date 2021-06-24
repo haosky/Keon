@@ -113,4 +113,8 @@ project(":Keon-RPC") {
 		mavenCentral()
 	}
 
+	dependencies {
+		implementation("org.apache.thrift:libthrift:0.14.2")
+	}
+
 }
