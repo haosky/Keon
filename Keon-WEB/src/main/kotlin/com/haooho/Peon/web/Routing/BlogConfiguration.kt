@@ -1,9 +1,9 @@
-package com.haooho.Peon.web.routing
+package com.haooho.Keon.web.routing
 
-import com.haooho.Peon.web.Entities.Article
-import com.haooho.Peon.web.Entities.User
-import com.haooho.Peon.web.Repositories.ArticleRepository
-import com.haooho.Peon.web.Repositories.UserRepository
+import com.haooho.Keon.web.Entities.Article
+import com.haooho.Keon.web.Entities.User
+import com.haooho.Keon.web.Repositories.ArticleRepository
+import com.haooho.Keon.web.Repositories.UserRepository
 import org.springframework.boot.ApplicationRunner
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

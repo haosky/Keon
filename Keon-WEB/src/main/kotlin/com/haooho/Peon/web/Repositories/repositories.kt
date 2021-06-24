@@ -1,7 +1,7 @@
-package com.haooho.Peon.web.Repositories
+package com.haooho.Keon.web.Repositories
 
-import com.haooho.Peon.web.Entities.Article
-import com.haooho.Peon.web.Entities.User
+import com.haooho.Keon.web.Entities.Article
+import com.haooho.Keon.web.Entities.User
 import org.springframework.data.repository.CrudRepository
 
 interface ArticleRepository : CrudRepository<Article, Long> {

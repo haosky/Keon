@@ -1,7 +1,7 @@
-package com.haooho.Peon.web.Controller
+package com.haooho.Keon.web.Controller
 
-import com.haooho.Peon.web.Repositories.ArticleRepository
-import com.haooho.Peon.web.Repositories.UserRepository
+import com.haooho.Keon.web.Repositories.ArticleRepository
+import com.haooho.Keon.web.Repositories.UserRepository
 import org.springframework.http.HttpStatus.*
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.server.ResponseStatusException

@@ -5,5 +5,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Peon"
-include("Peon-WEB","Peon-RPC")
+rootProject.name = "Keon"
+include("Keon-WEB","Keon-RPC")

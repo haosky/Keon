@@ -1,9 +1,9 @@
-package com.haooho.Peon.web.Controller
+package com.haooho.Keon.web.Controller
 
-import com.haooho.Peon.web.Entities.Article
-import com.haooho.Peon.web.Entities.User
+import com.haooho.Keon.web.Entities.Article
+import com.haooho.Keon.web.Entities.User
 
-import com.haooho.Peon.web.Repositories.ArticleRepository
+import com.haooho.Keon.web.Repositories.ArticleRepository
 import org.springframework.http.HttpStatus.*
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -11,8 +11,8 @@ import org.springframework.ui.set
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.server.ResponseStatusException
-import com.haooho.Peon.web.Extensions.format
-import com.haooho.Peon.web.Properties.BlogProperties
+import com.haooho.Keon.web.Extensions.format
+import com.haooho.Keon.web.Properties.BlogProperties
 
 @Controller
 class HtmlController(private val repository: ArticleRepository,

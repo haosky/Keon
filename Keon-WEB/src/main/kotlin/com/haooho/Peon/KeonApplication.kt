@@ -1,6 +1,6 @@
-package com.haooho.Peon
+package com.haooho.Keon
 
-import com.haooho.Peon.web.Properties.BlogProperties
+import com.haooho.Keon.web.Properties.BlogProperties
 import org.springframework.boot.Banner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.EnableConfigurationProperties
@@ -8,10 +8,10 @@ import org.springframework.boot.runApplication
 
 @SpringBootApplication
 @EnableConfigurationProperties(BlogProperties::class)
-class PeonApplication
+class KeonApplication
 
 fun main(args: Array<String>) {
-	runApplication<PeonApplication>(*args){
+	runApplication<KeonApplication>(*args){
 		//setBannerMode(Banner.Mode.OFF)
 	}
 }

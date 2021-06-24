@@ -1,11 +1,11 @@
-package com.haooho.Peon.web.Entities
+package com.haooho.Keon.web.Entities
 
 import java.time.LocalDateTime
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
 import javax.persistence.Id
 import javax.persistence.ManyToOne
-import com.haooho.Peon.web.Extensions.toSlug
+import com.haooho.Keon.web.Extensions.toSlug
 
 @Entity
 class Article(

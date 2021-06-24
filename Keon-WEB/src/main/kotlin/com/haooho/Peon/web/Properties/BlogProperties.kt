@@ -1,4 +1,4 @@
-package com.haooho.Peon.web.Properties
+package com.haooho.Keon.web.Properties
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.boot.context.properties.ConstructorBinding

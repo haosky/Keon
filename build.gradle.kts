@@ -67,7 +67,7 @@ tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
-project(":Peon-WEB") {
+project(":Keon-WEB") {
 	apply(plugin = "java")
 	apply(plugin = "kotlin")
 	apply(plugin = "org.springframework.boot")
@@ -106,7 +106,7 @@ project(":Peon-WEB") {
 }
 
 
-project(":Peon-RPC") {
+project(":Keon-RPC") {
 	apply(plugin = "java")
 
 	repositories {
